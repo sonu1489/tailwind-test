@@ -98,7 +98,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex sm:flex md:hidden md:hdden lg:flex lg:flex-col lg:justify-between md:bg-blue-50 pl-4 md:pl-0  h-16 md:h-32 w-full lg:w-60 border-y-2 mt-2 lg:mt-0 lg:border-l-2 py-6 ">
+        <div className="flex sm:flex md:hidden md:hdden lg:flex lg:flex-col lg:justify-between md:bg-blue-50 pl-4 md:pl-0  h-16 md:h-32 w-full lg:w-60 border-y-2 lg:border-y-0 mt-2 lg:mt-0 lg:border-l-2 py-6 ">
           <div className="flex items-center">
             <img
               className="h-7 w-7 mr-2 lg:ml-2"

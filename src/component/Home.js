@@ -5,7 +5,7 @@ const Home = () => {
     <div className="flex items-center justify-center h-screen">
       <div class="flex flex-col items-center bg-white border border-2 shadow-md rounded-md max-w-[400px]  md:flex-row md:max-w-[850px] ">
         <img
-          class="object-fill rounded-t-l-md md:rounded-l-md md:h-60 md:w-50 lg:h-40 lg:w-56 "
+          class="object-fill rounded-t-md md:rounded-t-none md:rounded-tl-md md:rounded-lb-md md:h-60 md:w-50 lg:h-40 lg:w-56 "
           src="https://media.istockphoto.com/id/1415886888/photo/freshly-painted-craftsman-bungalow-house.jpg?b=1&s=170667a&w=0&k=20&c=lWGj1yZBmuZ-FB7401-NraD_tvhE36hw_zF363hsXAY="
           alt=""
         />

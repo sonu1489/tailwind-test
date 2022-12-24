@@ -2,10 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen">
-      <div class="flex flex-col ml-20 mx-8 mx-auto my-52 items-center bg-white border border-2 shadow-md rounded-md max-w-[400px] items-center  md:flex-row md:max-w-[850px]">
+    <div className="flex items-center justify-center h-screen">
+      <div class="flex flex-col items-center bg-white border border-2 shadow-md rounded-md max-w-[400px]  md:flex-row md:max-w-[850px] ">
         <img
-          class="object-fill rounded-t-l-md md:rounded-l-md md:h-60 md:w-50  lg:h-32 lg:w-48 "
+          class="object-fill rounded-t-l-md md:rounded-l-md md:h-60 md:w-50 lg:h-40 lg:w-56 "
           src="https://media.istockphoto.com/id/1415886888/photo/freshly-painted-craftsman-bungalow-house.jpg?b=1&s=170667a&w=0&k=20&c=lWGj1yZBmuZ-FB7401-NraD_tvhE36hw_zF363hsXAY="
           alt=""
         />
@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="flex flex-col justify-between items-center  sm:items-start pl-4 md:h-60 lg:h-32 w-96 lg:py-6 px-4 md:bg-blue-50 lg:bg-white pt-5 md:pt-10">
+        <div class="flex flex-col pl-4 justify-between w-full sm:w-96  md:h-60 lg:h-40 md:items-center md:justify-center md:bg-blue-50 lg:bg-white">
           <div className="flex">
             <div>
               <h5 class="uppercase text-lg font-bold tracking-tight text-slate-500  mr-5">
@@ -72,7 +72,7 @@ const Home = () => {
             </span>
           </div>
         </div>
-        <div className="hidden md:hdden lg:flex flex-col justify-between bg-blue-50  pl-4 h-32 border-l-2 py-6 px-4 w-60">
+        <div className="hidden md:hdden lg:flex flex-col  bg-blue-50  pl-4 border-l-2 py-6 lg:h-40 lg:w-1/3 md:justify-center  px-4 w-60">
           <div className="">
             <h1 className="uppercase text-normal font-bold text-slate-400 pb-2">
               Realtor
@@ -94,18 +94,18 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex md:hidden md:hdden lg:flex lg:flex-col lg:justify-between md:bg-blue-50 pl-4 md:pl-0  h-16 md:h-32 w-full lg:w-60 border-y-2 lg:border-y-0 mt-2 lg:mt-0 lg:border-l-2 py-6 ">
-          <div className="flex items-center">
+        <div className="flex md:hidden md:hdden w-full space-x-12 lg:space-x-0 lg:flex lg:flex-col md:space-y-4 md:bg-blue-50  md:justify-center  h-16 md:h-32 lg:h-40 lg:w-60 border-y-2 lg:border-y-0 lg:border-l-2 ">
+          <div className="flex pl-4 md:pl-0 items-center">
             <img
               className="h-7 w-7 mr-2 lg:ml-2"
               src="https://img.icons8.com/ios/2x/bedroom.png"
               alt=""
             />
-            <p className=" pr-2 sm:pr-24 lg:pr-0">3 Bedrooms</p>
+            <p className=" pr-2  lg:pr-0">3 Bedrooms</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex pl-2 items-center">
             <img
-              className="h-7 w-7 mr-2 lg:ml-2"
+              className="h-7 w-7 mr-2"
               src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/2x/external-bathroom-smart-home-device-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
               alt=""
             />
